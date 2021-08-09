@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+
+    <style>
+        .foto-perfil {
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .foto-perfil img {
+            height: 15.5rem;
+        }
+
+        .nome {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: rgb(20, 20, 20);
+        }
+
+        p,
+        h1,
+        li {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: rgb(12, 12, 12);
+        }
+
+        .group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            background-color: #ffffff;
+            width: 100%;
+            padding: 1.3rem 0;
+            border: 1px solid lightgray;
+
+
+        }
+
+        .group:nth-child(1) {
+            min-height: 10rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(67, 117, 37);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="group">
+        <div class="foto-perfil">
+            <img src="./img/Joao-Gomes.jpg" alt="foto-perfil">
+        </div>
+        <h1 class="nome">João Gomes</h1>
+        <br>
+        <p>
+        Nascido em 2002 na cidade de Serrita, interior de Pernambuco,o cantor se mudou para Petrolina, onde desde os
+        sete anos de idade participava do coral da Igreja. Estuda técnico em agropecuária no Instituto Federal de
+        Pernambuco, local onde começou a gravar vídeos e divulgar na internet, alcançando certa popularidade.
+    </p>
+    </div>
+
+    <div class="group">
+        <h1>Músicas mais tocadas do momento:</h1>
+        <ul>
+            <li><a href="https://youtu.be/EesmnqfWsQo?t=10" target="_blank">Meu pedaço de pecado</a></li>
+            <li><a href="https://youtu.be/_mjvZs3bv0A" target="_blank" >Eu tenho a senha</a></li>
+            <li><a href="https://youtu.be/MdB3sH1tGrA" target="_blank">Aquelas coisas</a></li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
